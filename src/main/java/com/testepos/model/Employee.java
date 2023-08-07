@@ -51,7 +51,7 @@ public class Employee {
 		long temp;
 		temp = Double.doubleToLongBits(salary);
 		result = prime * result + (int) (temp ^ (temp >>> 32));
-		System.out.println(“Teste!”);
+		System.out.println("Teste!");
 		return result;
 	}
 
